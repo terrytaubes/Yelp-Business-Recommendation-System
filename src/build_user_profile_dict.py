@@ -11,13 +11,15 @@ print "Start:", datetime.now().time()
 start = clock()
 #####
 
-
+## Load in json file of our processed training ratings
 with open('review_dict.txt', 'r') as f1:
     review_dict = json.load(f1)
 
+##
 with open('X_dict.txt', 'r') as f2:
 	X_dict = json.load(f2)
 
+## Features (# of keywords) in matrix
 n_features = 82
 
 #####
