@@ -16,7 +16,7 @@ import json
 
 
 """
-- Preprocessing of review and functions to obtain dictionaries of reviews
+- Preprocessing of training review data, and functions to obtain dictionaries of reviews
 
 Obtain:
     review:      DataFrame containing entire review.csv sorted by user_id
